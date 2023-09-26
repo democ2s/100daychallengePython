@@ -1,5 +1,5 @@
 """
-Project Title: 100 days of code: The complete Python Pro Bootcamp 2023, Dr.Angela Yu
+Project Title: 100 days of code in Python
 File Title: Day 1
 Date: 25/Sep/2023
 """
