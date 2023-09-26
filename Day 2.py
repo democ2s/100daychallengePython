@@ -75,7 +75,25 @@ var_div_floor_quotient = 35//4
 print(f"35//4 -- > {var_div_floor_quotient}. This is floor division where result is rounded to nearest least integer")
 print(round(36/4,3))
 
-print("Example programs using the above concepts")
+#****************************Examples*********************
+
+# Example 1 : Temperature conversion from one unit to other
+
+# ********************************************************
+# Formula for C to F (c * 9/5) + 32
+# Formula for F to C (f-32) x 5/9
+# Formula for C to K (c + 273.15
+# ********************************************************
+
+user_input = input("Enter temperature in celcius ")
+temp_cel = float(user_input)
+temp_farn = round((temp_cel * 9/5),2) + 32
+temp_kel = round((temp_cel + 273.15),2)
+
+print(f"Temperature of {temp_cel} C is {temp_farn} F and {temp_kel} K")
+
+
+# Example 2 : Tip calculor
 
 print("Welcome to the tip calculator")
 total_bill = input("What was the total bill? $")
